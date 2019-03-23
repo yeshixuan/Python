@@ -78,7 +78,10 @@ def run_game(num, score):
         break
     return switch
 
-def main(score):
+def main():
+    print("欢迎进入猜数字游戏！")
+    score = ra.randint(0,1000)
+    print("您的初始游戏分数是：{}".format(score))
     while True:
         num = input("请输入一个三位数：")
         if num.isdigit():
@@ -95,8 +98,5 @@ def main(score):
             print("请输入纯数字！")
 
 if __name__ == '__main__':
-    print("欢迎进入猜数字游戏！")
-    score = ra.randint(0,1000)
-    print("您的初始游戏分数是：{}".format(score))
-    main(score)
+    main()
 
