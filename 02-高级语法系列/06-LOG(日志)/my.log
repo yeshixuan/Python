@@ -1,0 +1,19 @@
+03/25/2019 20:23:29 PM - DEBUG - This is a debug log.
+03/25/2019 20:23:29 PM - INFO - This is a info log.
+03/25/2019 20:23:29 PM - WARNING - This is a warning log.
+03/25/2019 20:23:29 PM - ERROR - This is a error log.
+03/25/2019 20:23:29 PM - CRITICAL - This is a critical log.
+03/25/2019 20:25:45 PM - DEBUG - This is a debug log.
+03/25/2019 20:25:45 PM - INFO - This is a info log.
+03/25/2019 20:25:45 PM - WARNING - Tome is 10 years old.
+03/25/2019 20:25:45 PM - ERROR - This is a error log.
+03/25/2019 20:25:45 PM - CRITICAL - This is a critical log.
+03/25/2019 20:29:12 PM - DEBUG - This is a debug log.
+03/25/2019 20:29:12 PM - INFO - This is a info log.
+03/25/2019 20:29:12 PM - WARNING - Tome is 10 years old.
+03/25/2019 20:29:12 PM - ERROR - Some one delete the log file.
+NoneType: None
+Stack (most recent call last):
+  File "D:/python 全栈/第一遍复习/02-高级语法系列/06-LOG(日志)/01.py", line 13, in <module>
+    logging.error("Some one delete the log file.", exc_info=True, stack_info=True, extra={"user":"Tom","ip":"47.98.43.222"})
+03/25/2019 20:29:12 PM - CRITICAL - This is a critical log.
