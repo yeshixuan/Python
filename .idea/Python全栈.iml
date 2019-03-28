@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/02-高级语法系列" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02-高级语法系列/01-OOP(面向对象程序设计)" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (DRF)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
