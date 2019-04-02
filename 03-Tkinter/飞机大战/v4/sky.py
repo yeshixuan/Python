@@ -15,7 +15,7 @@ class Sky(mover.BaseMover):
         self.move_direction = [0, 1]
         # 移动着加载背景图像
         self.bg_image_fullname = config.images_path + config.filename_sky + config.filename_suffix
-        self.bg_image = tkinter.PhotoImage(filename=self.bg_image_fullname)
+        self.bg_image = tkinter.PhotoImage(file=self.bg_image_fullname)
         self.bg_image_tags = tags
 
     def exec_move(self):

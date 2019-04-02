@@ -17,7 +17,8 @@ class BaseMover(object):
         self.anchor_x = x
         self.anchor_y = y
         # 尺寸
-        self.width = self.height = h
+        self.width = w
+        self.height = h
         # 加载图片的标签
         self.bg_image_tags = tags
         # 击落移动着播放的死亡图像
