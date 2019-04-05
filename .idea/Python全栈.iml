@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/02-高级语法系列" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02-高级语法系列/01-OOP(面向对象程序设计)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03-Tkinter/飞机大战/v4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04-Pygame/贪吃蛇/面向对象/贪吃蛇" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (DRF)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
