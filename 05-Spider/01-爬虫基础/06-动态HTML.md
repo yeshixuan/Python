@@ -23,7 +23,7 @@
     - 官网： http://phantomjs.org/download.html
 - Selenium 库有有一个WebDriver的API
 - WebDriver可以跟页面上的元素进行各种交互，用它可以来进行爬取
-- 案例 v36
+- 案例 v38
 - chrome + chromedriver
     - 下载安装chrome： 下载+安装
     - 下载安装chromedriver：
@@ -43,4 +43,4 @@
         - 拖拽
         - 输入
         - 可以通过导入ActionsChains类来做到
-    - 案例37
+    - 案例v39
