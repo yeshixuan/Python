@@ -57,7 +57,7 @@
 - 设置timeout参数还可以设置超时时间，如果请求时间超出，那么会抛出异常
     from urllib import request
     rsp = request.urlopen('http://httpbin.org',data=b"word=hello",timeout=10)
-    print(rsp.red().decode()
+    print(rsp.red().decode()）
 
 ## 添加Headers
 - 通过urllib发起的请求会有默认的一个Headers：“User-Agent":"Python-urllib/3.6",指明请求时由urllib发送的。
@@ -91,7 +91,7 @@
   '南北'
 
 ## urllib.parse.urlencode
-- 在访问url时，我们常常需要传递很多的url参数，而如果用字符串的方法却拼接url的话，会比较麻烦，所以urllib中提供了urlencode这个方法来凭借url参数
+- 在访问url时，我们常常需要传递很多的url参数，而如果用字符串的方法去拼接url的话，会比较麻烦，所以urllib中提供了urlencode这个方法来凭借url参数
     >>> from urllib import parse
     >>> params = {'wd':'南北','code':'i','height':'188'}
     >>> parse.urlencode(params)
